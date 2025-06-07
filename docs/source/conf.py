@@ -33,5 +33,13 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# Enable syntax highlighting
+pygments_style = 'sphinx'
+highlight_language = 'python'
+highlights_options = {
+    'stripnl': True,
+    'stripall': True
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
