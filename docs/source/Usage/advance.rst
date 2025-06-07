@@ -7,7 +7,7 @@
 
     在更新版本中，标签页名称变为 ``配置文件`` 。
 
-在 ``0.8.0`` 及以上版本，SRA添加了 **账号配置**相关功能。
+在 ``0.8.0`` 及以上版本，SRA添加了 ``账号配置`` 相关功能。
 
 可以点击上方 ``多账号`` (0.8.0)或 ``配置文件`` 进入。
 
@@ -110,27 +110,28 @@ SRA所有的下载及更新服务都集成于 **SRA更新器（SRAUpdater）**�
 
 在设置中，勾选 ``邮件通知`` ，并在下方配置 SMTP 服务并点击验证。
 
-**SMTP**是一种可靠有效的电子邮件传输协议，SRA 使用 **SMTP-SSL**推送电子邮件通知。
+SMTP是一种可靠有效的电子邮件传输协议，SRA 使用SMTP-SSL推送电子邮件通知。
 
 SMTP 服务器地址
 ~~~~~~~~~~~~~~~~
 根据发信邮箱的电子邮件服务提供商选择正确的 SMTP 服务器地址。
 
 .. list-table:: 部分邮件提供商及对应的SMTP服务器地址
-    :widths: 30 30 30
-    :header-rows: 1
-    * - 电子邮件服务提供商
-      - SMTP服务器地址
-    * - QQ邮箱
-      - 163邮箱
-      - Gmail
-      - Outlook/Hotmail
-      - Yahoo Mail
-    * - smtp.qq.com
-      - smtp.163.com
-      - smtp.gmail.com
-      - smtp-mail.outlook.com
-      - smtp.mail.yahoo.com
+   :widths: 30 70
+   :header-rows: 1
+
+   * - 电子邮件服务提供商
+     - SMTP服务器地址
+   * - QQ邮箱
+     - smtp.qq.com
+   * - 163邮箱
+     - smtp.163.com
+   * - Gmail
+     - smtp.gmail.com
+   * - Outlook/Hotmail
+     - smtp-mail.outlook.com
+   * - Yahoo Mail
+     - smtp.mail.yahoo.com
 
 上方列举了部分邮件提供商以及对应的SMTP服务器地址。如果你没在上表中找到您的邮件提供商，请自行查找、咨询。
 
@@ -148,20 +149,20 @@ SMTP 服务器地址
     - 登录您的邮箱，然后进入 ``设置`` -> ``POP3/SMTP/IMAP`` ，找到 ``IMAP/SMTP服务`` 并点击开启
     - 在弹窗中按照提示操作，然后弹窗生成授权密码，该密码即授权码。
 
- - ``Gmail``
+ - **Gmail**
     - 登录您的邮箱，然后进入 `安全性 <https://myaccount.google.com/security?>`_ -> ``您的Google账号登录选项`` -> ``两步验证`` ，按照说明启动两步验证。
     - 打开 `应用专用密码 <https://myaccount.google.com/apppasswords>`_ ，按照提示操作即可获取专用密码，该密码即授权码。
 
 .. tip:: 
-    自 2025 年 1 月起，“启用 IMAP”和“停用 IMAP”选项将无法再使用。Gmail 中的 IMAP 访问功能始终处于启用状态，您当前与其他电子邮件客户端的连接不会受到影响。您无需采取任何行动。
+   自 2025 年 1 月起，"启用 IMAP"和"停用 IMAP"选项将无法再使用。Gmail 中的 IMAP 访问功能始终处于启用状态，您当前与其他电子邮件客户端的连接不会受到影响。您无需采取任何行动。
 
- - ``Outlook/Hotmail``
-    - 登录 ``Mircosoft账号`` ，然后进入 `其他安全选项 <https://go.microsoft.com/fwlink/?linkid=2274139>`_ -> ``双重验证`` ，按照说明打开双重验证。
-    - 打开双重验证后，向下滑找到 ``应用密码`` ，点击 ``创建新应用密码``
- - `Yahoo Mail <https://help.yahoo.com/kb/generate-third-party-passwords-sln15241.html>`_
-    - 登录到 `Yahoo账号安全 <https://login.yahoo.com/account/security?.lang=en-US&.intl=us&.src=yhelp>`_
-    - 点击 ``Generate app password`` 或 ``Generate and manage app passwords`` -> ``Get Started`` -> 在文本字段中输入您的应用名称
-    - 点击 ``Generate password`` ，此密码即授权码。
+- **Outlook/Hotmail**
+   - 登录 ``Mircosoft账号`` ，然后进入 `其他安全选项 <https://go.microsoft.com/fwlink/?linkid=2274139>`_ -> ``双重验证`` ，按照说明打开双重验证。
+   - 打开双重验证后，向下滑找到 ``应用密码`` ，点击 ``创建新应用密码``
+- `Yahoo Mail <https://help.yahoo.com/kb/generate-third-party-passwords-sln15241.html>`_
+   - 登录到 `Yahoo账号安全 <https://login.yahoo.com/account/security?.lang=en-US&.intl=us&.src=yhelp>`_
+   - 点击 ``Generate app password`` 或 ``Generate and manage app passwords`` -> ``Get Started`` -> 在文本字段中输入您的应用名称
+   - 点击 ``Generate password`` ，此密码即授权码。
 
 .. warning:: 
     为了您的信息安全，请勿将授权码告诉他人，并定期更换。
