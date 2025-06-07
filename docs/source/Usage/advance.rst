@@ -196,6 +196,11 @@ SMTP 服务器地址
     # powershell
     Start-Process powershell -Verb runAs -ArgumentList "-NoExit", "-Command", "cd '$((Get-Location).Path)'"
 
+.. warning:: 
+    在某些情况下，即使这两个命令也用不了。此时只能使用 `cd`命令像双击打开文件那样打开文件目录。
+    
+    不过，你可以复制地址栏，然后粘贴在 `cd `的后面。
+
 2. 在新窗口中输入 `SRA.exe --cli`（cmd）或 `.\SRA.exe --cli` （powershell）。此时，你已经成功启用命令行了！
 
 SRA的命令行应该是这样的：
