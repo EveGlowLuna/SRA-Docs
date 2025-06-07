@@ -248,6 +248,7 @@ SRA的命令行应该是这样的：
 可以输入exit来退出程序。
 
 .. code-block::
+    
     SRA> run default
     2025-06-07 18:38:42 | WARNING | SRACommandLine.do_run:87 | 即将开始执行任务, 当前配置: ['default'] , 终端将被任务占用！
     2025-06-07 18:38:43 | INFO    | SRAssistant.assist_start:72 | 当前配置 default
