@@ -11,6 +11,8 @@ version = '0.8.2.2'
 
 # -- General configuration
 
+language = 'zh_CN'
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
