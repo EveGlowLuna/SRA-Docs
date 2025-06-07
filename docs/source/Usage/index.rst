@@ -9,5 +9,5 @@
 .. toctree::
 
    getstarted
-   usage
+   advance
    
