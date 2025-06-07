@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+SRA-docs
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+基于官方文档更改的文档，计划长期维护。
 
-Read the tutorial here:
+ **StarRailAssistant项目地址**: https://github.com/Shasnow/StarRailAssistant
 
-https://docs.readthedocs.io/en/stable/tutorial/
+
