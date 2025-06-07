@@ -192,6 +192,7 @@ SMTP 服务器地址
 1. 仿照调试模式->具体步骤打开命令行，然后输入：
 
 .. code-block:: bash
+
     # cmd
     powershell -command "Start-Process cmd -Verb runAs -ArgumentList '/K', 'cd /d \"%CD%\"'"
     # powershell
@@ -207,6 +208,7 @@ SMTP 服务器地址
 SRA的命令行应该是这样的：
 
 .. code-block::
+
     SRA v0.8.2 for Windows
     欢迎使用 SRA 命令行模式！输入 help 或 ? 查看帮助信息。
     SRA>
@@ -214,6 +216,7 @@ SRA的命令行应该是这样的：
 一切准备就绪，可以输入help或者?来获取帮助。
 
 .. code-block:: 
+
     SRA>?
     可用命令：
       config - 显示指定配置

@@ -2,13 +2,14 @@
 ============================
 下载
 ----------------
-前往 `下载页面 <https://starrailassistant.top/SRA/downloadhtml>`_ 选择渠道进行下载
+前往 `下载页面 <https://starrailassistant.top/SRA/download.html>`_ 选择渠道进行下载
 
 添加信任
 ----------------
 SRA拥有多种敏感动作（包括但不限于 ``获取管理员权限`` 、 ``读写注册表`` 、 ``操作屏幕`` ）而导致容易被安全软件误报隔离。
 在运行软件前，可以将SRA的安装目录添加到安全软件的信任列表中以避免被误杀。
 此处展示如何在 ``Windows Defender`` 中添加信任：
+
 1. 打开 `Windows Defender <ms-settings:windowsdefender>`_ 
 
 如果链接无效，请手动打开 ``Windows Defender``
