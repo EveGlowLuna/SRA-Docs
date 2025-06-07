@@ -17,7 +17,7 @@
 
 .. image:: ../asset/img/trust/truststep1.png
 
-2. 打开 ``病毒和威胁防护``设置 - ``管理设置``
+2. 打开 ``病毒和威胁防护`` 设置 - ``管理设置``
 
 .. image:: ../asset/img/trust/truststep2.png
 
